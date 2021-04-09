@@ -1,0 +1,188 @@
+# Arquivo descrevendo o tempo entre as estações do Metrô de São Paulo.
+# Linhas iniciadas com o caractere '#' representam comentários e devem ser
+# ignoradas. 
+# Cada linha do arquivo está no seguinte formato:
+# <Estação A>,<Estação B>,<tempo> 
+# A <Estação A> representa a estação de origem, a <Estação B> representa a
+# estação de destino e <tempo> é o tempo que um trem leva para ir de A a B.
+# Uma conexão entre uma estação A e B implica necessariamente que haja uma
+# conexão entre B e A, e o tempo que o trem leva para ir de A a B é igual ao
+# tempo que o trem leva para ir de B para A.
+#
+#Linha 1
+#
+Tucuruvi,Parada Inglesa,2
+Parada Inglesa,Jardim São Paulo-Ayrton Senna,2
+Jardim São Paulo-Ayrton Senna,Santana,3
+Santana,Carandiru,2
+Carandiru,Portuguesa-Tietê,2
+Portuguesa-Tietê,Armênia,2
+Armênia,Tiradentes,2
+Tiradentes,Luz,2
+Luz,São Bento,2
+São Bento,Sé,2
+Sé,Liberdade,2
+Liberdade,São Joaquim,3
+São Joaquim,Vergueiro,2
+Vergueiro,Paraíso,2
+Paraíso,Ana Rosa,2
+Ana Rosa,Vila Mariana,2
+Vila Mariana,Santa Cruz,2
+Santa Cruz,Praça da Árvore,3
+Praça da Árvore,Saúde,2
+Saúde,São Judas,2
+São Judas,Conceição,2
+Conceição,Jabaquara,2
+Jabaquara,Diadema,16
+Diadema,Morumbi,20
+Diadema,Piraporinha,11
+Piraporinha,São Bernado,20
+São Bernado,Santo André,30
+Santo André,Sônia Maria,23
+Sônia Maria,São Mateus,7
+#
+#Linha 2
+#
+Vila Madalena,Sumaré,3
+Sumaré,Clínicas,2
+Clínicas,Consolação,3
+Consolação,Trianon-Masp,2
+Consolação,Paulista,0
+Trianon-Masp,Brigadeiro,2
+Brigadeiro,Paraíso,2
+Paraíso,Ana Rosa,2
+Ana Rosa,Chácara Klabin,3
+Chácara Klabin,Santos-Imigrantes,3
+Santos-Imigrantes,Alto do Ipiranga,3
+Alto do Ipiranga,Sacomã,2
+Sacomã,Tamanduateí,3
+Tamanduateí,Vila Prudente,3
+#
+#Linha 3
+#
+Palmeiras-Barra Funda,Marechal Deodoro,3
+Marechal Deodoro,Santa Cecília,2
+Santa Cecília,República,2
+República,Anhangabaú,2
+Anhangabaú,Sé,2
+Sé,Pedro II,2
+Pedro II,Brás,2
+Brás,Bresser-Mooca,2
+Bresser-Mooca,Belém,3
+Belém,Tatuapé,3
+Tatuapé,Carrão,3
+Carrão,Penha,4
+Penha,Vila Matilde,2
+Vila Matilde,Guilhermina-Esperança,3
+Guilhermina-Esperança,Patriarca,3
+Patriarca,Artur Alvim,3
+Artur Alvim,Corinthians-Itaquera,3
+#
+#Linha 4
+#
+Luz,República,2
+República,Paulista,2
+Paulista,Faria Lima,2
+Faria Lima,Pinheiros,2
+Pinheiros,Butantã,2
+#
+#Linha 5
+#
+Capão Redondo,Campo Limpo,2
+Campo Limpo,Vila das Belezas,3
+Vila das Belezas,Giovanni Gronchi,3 
+Giovanni Gronchi,Santo Amaro,3
+Santo Amaro,Largo Treze,2
+#
+#Linha 7
+#
+Luz,Palmeiras-Barra Funda,5.5
+Palmeiras-Barra Funda,Água Branca,4.5
+Água Branca,Lapa,3.5
+Lapa,Piqueri,3
+Piqueri,Pirituba,3.5
+Pirituba,Vila Clarice,4.5
+Vila Clarice,Jaraguá,4.5
+Jaraguá,Perus,7
+Perus,Caieiras,5.5
+Caieiras,Franco da Rocha,8
+Franco da Rocha,Baltazar Fidélis,3
+Baltazar Fidélis,Francisco Morato,7.5
+#
+#Linha 8
+#
+Júlio Prestes,Palmeiras-Barra Funda,5.5
+Palmeiras-Barra Funda,Lapa,4
+Lapa,Domingos de Moraes,4.5
+Domingos de Moraes,Imperatriz Leopoldina,3
+Imperatriz Leopoldina,Presidente Altino,4
+Presidente Altino,Osasco,2.5
+Osasco,Comandante Sampaio,5.5
+Comandante Sampaio,Quitaúna,2
+Quitaúna,General Miguel Costa,2.5
+General Miguel Costa,Carapicuíba,3.5
+Carapicuíba,Santa Terezinha,3
+Santa Terezinha,Antônio João,2.5
+Antônio João,Barueri,2.5
+Barueri,Jardim Belval,4
+Jardim Belval,Jardim Silveira,2
+Jardim Silveira,Jandira,1.5
+Jandira,Sagrado Coração,3
+Sagrado Coração,Engenheiro Cardoso,2.5
+Engenheiro Cardoso,Itapevi,4
+#
+#Linha 9
+#
+Osasco,Presidente Altino,3.5,
+Presidente Altino,Ceasa,2.5
+Ceasa,Vila Lobos-Jaguaré,2
+Vila Lobos-Jaguaré,Cidade Universitária,3
+Cidade Universitária,Pinheiros,1.5,
+Pinheiros,Hebraica-Rebouças,2,
+Hebraica-Rebouças,Cidade Jardim,2
+Cidade Jardim,Vila Olímpia,2
+Vila Olímpia,Berrini,2
+Berrini,Morumbi,2
+Morumbi,Granja Julieta,2
+Granja Julieta,Santo Amaro,4
+Santo Amaro,Socorro,2
+Socorro,Jurubatuba,2.5
+Jurubatuba,Autódromo,3.5
+Autódromo,Primavera-Interlagos,3
+Primavera-Interlagos,Grajaú,2.5
+#
+#Linha 10
+#
+Brás,Mooca,4
+Mooca,Ipiranga,4.5
+Ipiranga,Tamanduateí,3
+Tamanduateí,São Caetano,4
+São Caetano,Utinga,4.5
+Utinga,Prefeito Saladino,2.5
+Prefeito Saladino,Santo André,3.5
+Santo André,Capuava,6
+Capuava,Mauá,4
+Mauá,Guapituba,6
+Guapituba,Ribeirão Pires,5.5
+Ribeirão Pires,Rio Grande da Serra,8
+#
+#Linha 11
+#
+Guaianases,Antônio Gianetti,6
+Antônio Gianetti,Ferraz de Vasconcelos,3
+Ferraz de Vasconcelos,Poá,4.5
+Poá,Calmon Viana,2.5
+Calmon Viana,Suzano,3.5
+Suzano,Jundiapeba,5.5
+Jundiapeba,Braz Cubas,3.5
+Braz Cubas,Mogi das Cruzes,5
+Mogi das Cruzes,Estudantes,3.5
+#
+#Linha 11 (expresso)
+#
+Luz,Brás,5
+Brás,Tatuapé,7,
+Tatuapé,Corinthians-Itaquera,12.5
+Corinthians-Itaquera,Dom Bosco,3.5
+Dom Bosco,José Bonifácio,3
+José Bonifácio,Guaianases,3
